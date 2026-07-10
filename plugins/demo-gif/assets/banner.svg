@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="1200" height="340" role="img" aria-label="demo-gif: calm, followable demo GIFs of any web UI, an oaklake-tools plugin">
+  <defs>
+    <clipPath id="disc"><circle cx="176" cy="146" r="80"></circle></clipPath>
+    <clipPath id="refl"><ellipse cx="176" cy="252" rx="80" ry="30"></ellipse></clipPath>
+  </defs>
+
+  <!-- Cream card (reads as a raised card on GitHub's dark theme too) -->
+  <rect x="1.5" y="1.5" width="1197" height="337" rx="28" fill="#FCFAF5" stroke="#E6DECE" stroke-width="2"></rect>
+
+  <!-- Reflection of the disc on the lake -->
+  <g clip-path="url(#refl)" opacity="0.18">
+    <rect x="96" y="222" width="160" height="30" fill="#2E8E86"></rect>
+    <rect x="96" y="252" width="160" height="30" fill="#BE7536"></rect>
+  </g>
+
+  <!-- Oak / sun over the lake: the Oaklake split disc -->
+  <g clip-path="url(#disc)">
+    <rect x="96" y="66" width="160" height="76" fill="#BE7536"></rect>
+    <rect x="96" y="142" width="160" height="11" fill="#F4F0E8"></rect>
+    <rect x="96" y="153" width="160" height="76" fill="#2E8E86"></rect>
+  </g>
+
+  <!-- Wordmark + title -->
+  <text x="342" y="114" font-family="'IBM Plex Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace" font-size="15" font-weight="500" letter-spacing="3" fill="#0E5B5E">OAKLAKE-TOOLS · CLAUDE CODE PLUGIN</text>
+  <text x="340" y="188" font-family="'Space Grotesk', 'Helvetica Neue', Arial, sans-serif" font-size="70" font-weight="600" letter-spacing="-2.5" fill="#20201D">demo-gif</text>
+  <text x="342" y="232" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="22" fill="#57534B">Calm, followable demo GIFs of any web UI.</text>
+  <text x="342" y="274" font-family="'IBM Plex Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace" font-size="14" letter-spacing="0.5" fill="#A89B83">Playwright &#8594; ffmpeg  ·  GIFs for your PRs, READMEs &amp; changelogs</text>
+</svg>

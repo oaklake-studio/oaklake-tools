@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "author": { "name": "Oaklake Studio" },
   "license": "MIT",
-  "homepage": "https://github.com/oaklake-studio/demo-gif",
-  "repository": "https://github.com/oaklake-studio/demo-gif",
+  "homepage": "https://github.com/oaklake-studio/oaklake-tools/tree/main/plugins/demo-gif",
+  "repository": "https://github.com/oaklake-studio/oaklake-tools",
   "keywords": ["gif", "screencast", "playwright", "demo", "ffmpeg", "pr"]
 }

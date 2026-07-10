@@ -1,7 +1,7 @@
 {
   "name": "oaklake-tools",
   "owner": { "name": "Oaklake Studio" },
-  "metadata": { "description": "Oaklake Studio's Claude Code plugins." },
+  "metadata": { "description": "Oaklake Studio's Claude Code tools: the skills, commands, and agents we build for our own work and share." },
   "plugins": [
     {
       "name": "demo-gif",
