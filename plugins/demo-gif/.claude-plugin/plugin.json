@@ -1,0 +1,10 @@
+{
+  "name": "demo-gif",
+  "description": "Record a calm, followable demo GIF of any web UI (Playwright → ffmpeg), saved under .demo-gifs/ at the project root and auto-gitignored.",
+  "version": "1.0.0",
+  "author": { "name": "Oaklake Studio" },
+  "license": "MIT",
+  "homepage": "https://github.com/oaklake-studio/demo-gif",
+  "repository": "https://github.com/oaklake-studio/demo-gif",
+  "keywords": ["gif", "screencast", "playwright", "demo", "ffmpeg", "pr"]
+}

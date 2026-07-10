@@ -1,0 +1,14 @@
+{
+  "name": "eduardo-tools",
+  "owner": { "name": "Eduardo" },
+  "metadata": { "description": "Eduardo's Claude Code plugins." },
+  "plugins": [
+    {
+      "name": "demo-gif",
+      "source": "./plugins/demo-gif",
+      "description": "Record a calm, followable demo GIF of any web UI (Playwright → ffmpeg).",
+      "category": "workflow",
+      "keywords": ["gif", "screencast", "playwright", "demo", "ffmpeg", "pr"]
+    }
+  ]
+}
