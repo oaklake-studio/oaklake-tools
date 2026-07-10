@@ -9,6 +9,13 @@
       "description": "Record a calm, followable demo GIF of any web UI (Playwright → ffmpeg).",
       "category": "workflow",
       "keywords": ["gif", "screencast", "playwright", "demo", "ffmpeg", "pr"]
+    },
+    {
+      "name": "engineering-conventions",
+      "source": "./plugins/engineering-conventions",
+      "description": "Oaklake Studio's engineering conventions, injected at the start of every session via a SessionStart hook.",
+      "category": "workflow",
+      "keywords": ["conventions", "house-style", "guidelines", "hook"]
     }
   ]
 }

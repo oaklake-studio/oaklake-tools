@@ -1,0 +1,16 @@
+{
+  "name": "engineering-conventions",
+  "description": "Injects Oaklake Studio's engineering conventions into context at the start of every session.",
+  "version": "1.0.0",
+  "author": { "name": "Oaklake Studio" },
+  "license": "MIT",
+  "homepage": "https://github.com/oaklake-studio/oaklake-tools/tree/main/plugins/engineering-conventions",
+  "repository": "https://github.com/oaklake-studio/oaklake-tools",
+  "keywords": [
+    "conventions",
+    "house-style",
+    "guidelines",
+    "sessionstart",
+    "hook"
+  ]
+}

@@ -32,11 +32,12 @@ Pull in new tools as we ship them with `/plugin marketplace update oaklake-tools
 
 ## What's inside
 
-A growing set: one plugin today, more on the way.
+A growing set: two plugins today, more on the way.
 
 | Plugin | What it does | Install |
 | --- | --- | --- |
 | **[demo-gif](plugins/demo-gif)** | Records a **calm, followable demo GIF** of any web UI (for a PR, README, or changelog). Claude drives a browser through a short scripted flow (Playwright), records one continuous take, and converts it to a palette-optimized GIF under `.demo-gifs/` (auto-gitignored). | `demo-gif@oaklake-tools` |
+| **[engineering-conventions](plugins/engineering-conventions)** | Injects **Oaklake's engineering conventions** into context at the start of every session, via a SessionStart hook that prints `conventions.md`. General, non-private house rules for code, changes, and writing. | `engineering-conventions@oaklake-tools` |
 
 > [!NOTE]
 > **demo-gif prerequisites:** Python ≥ 3.9, `ffmpeg` on `PATH`, and Google Chrome (or a one-time bundled-Chromium download). POSIX shell. On Windows use WSL or git-bash. Full detail in **[plugins/demo-gif/README.md](plugins/demo-gif/README.md)**.
