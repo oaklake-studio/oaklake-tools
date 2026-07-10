@@ -1,7 +1,7 @@
 {
-  "name": "eduardo-tools",
-  "owner": { "name": "Eduardo" },
-  "metadata": { "description": "Eduardo's Claude Code plugins." },
+  "name": "oaklake-tools",
+  "owner": { "name": "Oaklake Studio" },
+  "metadata": { "description": "Oaklake Studio's Claude Code plugins." },
   "plugins": [
     {
       "name": "demo-gif",
